@@ -1,0 +1,16 @@
+# Node.js dependencies
+node_modules/
+
+# Logs
+*.log
+
+# Environment files
+.env/
+
+
+# Windows-specific files
+Thumbs.db
+ehthumbs.db
+
+# IDE files
+.vscode/
