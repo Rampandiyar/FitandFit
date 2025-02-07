@@ -1,6 +1,5 @@
-const nodemailer = require("nodemailer");
-const memberModel = require("../models/memberModel");
-
+import nodemailer from "nodemailer"
+import memberModel from "../Models/member.model.js"
 const transporter = nodemailer.createTransport({
   service: "gmail",
   auth: {

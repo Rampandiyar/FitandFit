@@ -1,7 +1,7 @@
-const express = require("express");
-const router = express.Router();
-const notificationController = require("../controllers/notificationController");
+import express from "express"
+import notificationController from "../Controller/notification.controller.js"
 
+const router = express.Router();
 // This route is not necessary but added for clarity.
 router.get("/send-notifications", notificationController.checkDueDatesAndNotify);
 

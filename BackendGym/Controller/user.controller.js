@@ -1,6 +1,6 @@
-const bcrypt = require("bcryptjs");
-const jwt = require("jsonwebtoken");
-const userModel = require("../models/userModel");
+import bcrypt from "bcryptjs"
+import jwt from "jsonwebtoken"
+import userModel from "../Models/user.model.js"
 const SECRET_KEY = process.env.SECRET_KEY;
 
 const register = (req, res) => {
